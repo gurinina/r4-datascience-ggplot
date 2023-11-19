@@ -1,0 +1,30 @@
+project:
+  type: book
+book:
+  title: "R4DataScience-visualizations"
+  reader-mode: true
+page-footer:
+  left: |
+      The Solutions to Exercises for R for Data Science (2e) was written by
+      Jabir Ghaffar, Davon Person, and Mine Çetinkaya-Rundel.
+  right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  site-url: https://r4ds.hadley.nz/
+  repo-url: https://github.com/mine-cetinkaya-rundel/r4ds-solutions/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+      data-visualize.qmd
+      layers.qmd
+format:
+  html:
+    theme:
+      - cosmo
+      - r4ds.scss
+    code-link: true
+    author-meta: "Jabir Ghaffar, Davon Person, and Mine Çetinkaya-Rundel"
+    callout-appearance: simple
+editor: visual
+execute:
+  freeze: auto
