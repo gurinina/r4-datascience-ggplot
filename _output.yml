@@ -1,0 +1,18 @@
+project:
+  type: book
+book:
+  title: "r4-datascience-ggplot"
+  reader-mode: true
+  site-url: https://r4ds.hadley.nz/
+  repo-url: https://github.com/mine-cetinkaya-rundel/r4ds-solutions/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.Rmd
+      01-visualize.Rmd
+      layers.Rmd
+format:
+  html:
+    theme:
+      - css/style.css
+    code-link: true
